@@ -217,8 +217,8 @@ end;
 
 define C-function glfwGetFramebufferSize
   input parameter window :: <GLFWwindow*>;
-  input parameter width :: <int*>;
-  input parameter height :: <int*>;
+  output parameter width :: <int*>;
+  output parameter height :: <int*>;
   c-name: "glfwGetFramebufferSize";
 end;
 
